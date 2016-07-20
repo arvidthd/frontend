@@ -1,6 +1,10 @@
 <?php
 use yii\helpers\Html;
 use yii\widgets\LinkPager;
+use yii\themes;
+use yii\bootstrap\Modal;
+use yii\bootstrap\ButtonDropdown;
+use	yii\bootstrap\BootstrapWidgetTrait;
 ?>
 
 <h1>Countries</h1>
@@ -15,4 +19,6 @@ use yii\widgets\LinkPager;
 </ul>
 
 <?= LinkPager::widget(['pagination'=>$pagination]) ?>
+
+
 
